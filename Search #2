@@ -1,0 +1,28 @@
+
+#include <iostream.h>
+int  main()
+{int n,arr[],search;
+    cout<<"Enter the number of elements you want to enter ";
+    cin>>n;
+    
+    cout<<"Enter the elements one by one \n";
+    for (int i=0;i<n-1;i++)
+    {
+        cin>> arr[i];
+    }
+    cout<<"Enter the element to be searched for  ";
+    cin>>search;
+    for ( int i=0;i<n-1;i++)
+            {
+                if (search == arr[i] )
+                {cout<<"Element is present in the array at position   "<<i+1;
+                 }
+            else
+            {
+                cout<<"Element is not present in the array.";
+            }
+}
+    return 0;
+}
+
+//Under work
